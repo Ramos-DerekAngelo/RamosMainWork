@@ -4,20 +4,21 @@
     }
 		.grid-container{
 			display: grid;
-			grid-container: 1fr 1fr;
 			grid-template-rows: 150px 90px;
+      grid-template-columns: 490px 495px;
+      background-color: #91ADC8;
+      border: solid 1px;
 		}
 		.first {
 			grid-column: span 3;
 			background-color: #647FBC;
-			padding: 5px;
+			padding: 10px;
       border: solid 1px;
       text-align: center;
 		}
 		.card {
 			background-color: #91ADC8;
 			padding: 30px;
-      border: solid 1px;
       text-align: center;
 		}
     .home{
@@ -26,11 +27,16 @@
     .About{
       text-align: center;
     }
+    .Names{
+      text-align: center;
+    }
     .characters{
       text-align: center;
+      padding: 30px;
     }
     .secret{
       text-align: center;
+      padding: 30px;
     }
 
     .flexbox-container{
@@ -45,16 +51,19 @@
     table{
       border: solid;
       padding: 10px;
-      background-color: #739EC9;
+      background-color: #6DC3BB;
     }
     th{
       border: solid 1px;
+      background-color: #739EC9;
     }
     td{
       border: solid 1px;
+      background-color: #739EC9;
     }
     .Big-One{
       font-size: 40px;
+      text-align: center;
     }
     footer {
       color:: #91ADC8;
@@ -75,3 +84,42 @@
       margin-bottom: 15px;
     }
 	
+  /*this is page two styles*/
+
+  .gamemechanics{
+      text-align: center;
+      padding: 30px;
+  }
+  .card{
+    width: 18rem;
+  }
+  .justpadding{
+    padding: 10px;
+  }
+  .Videos{
+    text-align: center;
+  }
+  
+  .gridding{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr) ;
+    grid-template-columns: repeat(3, 1fr) ;
+    gap: 40px;
+  }
+  .boxy{
+    border: solid 3px;
+    background-color: #91ADC8;
+    height: 370px;
+  }
+
+  .alltext{
+    text-align: center;
+  }
+
+  .allvideos{
+    width: 410px;
+  }
+  .allvideosspecial{
+    width: 410px;
+    height: 307px;
+  }
